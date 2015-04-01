@@ -10,3 +10,9 @@ end
 
 display(students)
 
+students[:cohort4] = 43
+
+puts students.inspect
+
+
+students.each_value{|key| puts key}
