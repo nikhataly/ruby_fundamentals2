@@ -17,6 +17,8 @@ end
 puts grocery_list[1]
 puts grocery_list.length
 
-grocery_list.pop["salmon"]
+grocery_list.delete("salmon")
+
+# puts grocery_list.inspect
 
 printlist(grocery_list.sort)
