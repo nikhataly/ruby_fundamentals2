@@ -3,6 +3,10 @@ students = {
   :cohort2 => 42,
   :cohort3 => 22
 }
-students.each do |key, value|
-  puts "#{key}: #{value}"
+
+def display(students)
+    students.each { |key, value| puts "#{key}: #{value}"}
 end
+
+display(students)
+
